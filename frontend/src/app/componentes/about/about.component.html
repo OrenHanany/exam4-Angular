@@ -1,0 +1,25 @@
+<div class="main">
+<div>enter your account number to show all operations:</div>
+<input type="text" placeholder="acount number" #accountnumber> 
+<button (click)="onsubmit(+accountnumber.value)">submit</button><br>
+
+<table class="table">
+    <tr>
+        <td>accountnumber</td>
+        <td>type</td>
+        <td>sum</td>
+        <td>date</td>
+        <td>interest</td>
+        <td>payments</td>
+    </tr>
+
+<tr style="color: blue" *ngFor="let item of myoperations">
+    <td>{{item.accountnumber}} </td>
+    <td>{{item.type}}</td>
+    <td>{{item.sum}}</td>
+    <td>{{item.date}}</td>
+    <td>{{item.interest}}</td>
+    <td>{{item.payments}}</td>
+</tr>
+</table>
+</div>

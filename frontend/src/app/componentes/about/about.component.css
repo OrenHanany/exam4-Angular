@@ -1,0 +1,14 @@
+table{
+    border-width: 2px;
+    border: 2px solid black;
+    text-align: center;
+}
+td {
+    width: 15vh;
+    border-width: 2px;
+    border: 2px solid black;
+}
+.main {
+    margin-left: 10vh;
+    margin-right: 10vh;
+}

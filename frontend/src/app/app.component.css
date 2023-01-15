@@ -1,0 +1,11 @@
+table{
+    margin-left: 10vh;
+    border-width: 2px;
+    border: 2px solid black;
+}
+td {
+    width: 15vh;
+    margin-left: 10vh;
+    border-width: 2px;
+    border: 2px solid black;
+}

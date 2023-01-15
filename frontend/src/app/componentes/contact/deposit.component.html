@@ -1,0 +1,7 @@
+<div class="main">
+<p>add deposit:</p>
+<input type="text" placeholder="enter your acount number" #accountnumber> <br>
+<input type="text" placeholder="enter your amount for deposit" #sum> <br>
+<input type="date"  #date> <br>
+<button [routerLink]="['/about']" (click)="onsubmit(accountnumber.value,+sum.value,date.value)">submit</button><br> 
+</div>
